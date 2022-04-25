@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+       <a class="navbar-brand" href="">NHS</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="tech.html">Home</a></li>
+  
+   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Healthy diet <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+            <li><a href="tame 2.html">Exercize</a></li>
+            <li><a href="tame.html">Nutrition</a></li>
+            <li><a href="tame 3.html">Healthy diet</a></li>
+          </ul>
+        </li>
+        <li><a href="tame 5.html">Health benefits</a></li>
+        <li><a href="tame 4.html">About us</a></li>
+      
+          <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="form-group">
+         
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+      <button type="submit" class="btn btn-default">Search</button>
+  
+  <ul id="myUL">
+    <li><a href="tame 2.html">Exercise</a></li>
+    <li><a href="tame.html">Nutrition</a></li>
+    <li><a href="tame 3.html">Healthy diet</a></li>
+    <li><a href="tame 4.html">About us</a></li>
+    <li><a href="tame 5.html">Health benfits</a></li>
+  </ul>
+  
+  <script>
+  function myFunction() {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+          } else {
+              li[i].style.display = "none";
+          }
+      }
+  }
+  </script>
+  
+        
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+  
+
+<h1><center>Eating a balanced diet</center></h1>
+
+<p><center>Eating a healthy, balanced diet is an important part of maintaining good health, and can help you feel your best.
+This means eating a wide variety of foods in the right proportions, and consuming the right amount of food and drink to achieve and maintain a healthy body weight.
+This page covers healthy eating advice for the general population.
+People with special dietary needs or a medical condition should ask their doctor or a registered dietitian for advice.
+</center></p>
+
+<h2><center>Diet</center></h2>
+
+<p><center>The Eatwell Guide shows that to have a healthy, balanced diet, people should try to:
+eat at least 5 portions of a variety of fruit and vegetables every day (see 5 A Day)
+base meals on higher fibre starchy foods like potatoes, bread, rice or pasta
+have some dairy or dairy alternatives (such as soya drinks)
+eat some beans, pulses, fish, eggs, meat and other protein
+choose unsaturated oils and spreads, and eat them in small amounts
+drink plenty of fluids (at least 6 to 8 glasses a day)
+If you're having foods and drinks that are high in fat, salt and sugar, have these less often and in small amounts.
+Try to choose a variety of different foods from the 5 main food groups to get a wide range of nutrients.
+Most people in the UK eat and drink too many calories, too much saturated fat, sugar and salt, and not enough fruit, vegetables, oily fish or fibre.
+The Eatwell Guide does not apply to children under the age of 2 because they have different nutritional needs.
+Between the ages of 2 and 5 years, children should gradually move to eating the same foods as the rest of the family in the proportions shown in the Eatwell Guide.
+</center></p>
+
+<h3><center>Histroy</center></h3>
+
+<p><center>According to Foxcroft, the word diet comes from the Greek diaita, which represents a notion of a whole way healthy lifestyle including both mental and physical health, rather than a narrow weight-loss regimen.
+
+One of the first dietitians was the English doctor George Cheyne. He himself was tremendously overweight and would constantly eat large quantities of rich food and drink. He began a meatless diet, taking only milk and vegetables, and soon regained his health. He began publicly recommending his diet for everyone suffering from obesity. In 1724, he wrote An Essay of Health and Long Life, in which he advises exercise and fresh air and avoiding luxury foods.
+
+The Scottish military surgeon, John Rollo, published Notes of a Diabetic Case in 1797. It described the benefits of a meat diet for those suffering from diabetes, basing this recommendation on Matthew Dobson's discovery of glycosuria in diabetes mellitus.[14] By means of Dobson's testing procedure (for glucose in the urine) Rollo worked out a diet that had success for what is now called type 2 diabetes.
+The first popular diet was "Banting", named after the English undertaker William Banting. In 1863, he wrote a booklet called Letter on Corpulence, Addressed to the Public, which contained the particular plan for the diet he had successfully followed. His own diet was four meals per day, consisting of meat, greens, fruits, and dry wine. The emphasis was on avoiding sugar, sweet foods, starch, beer, milk and butter. Banting's pamphlet was popular for years to come, and would be used as a model for modern diets. The pamphlet's popularity was such that the question "Do you bant?" referred to his method, and eventually to dieting in general. His booklet remains in print as of 2007.
+The first weight-loss book to promote calorie counting, and the first weight-loss book to become a bestseller, was the 1918 Diet and Health: With Key to the Calories by American physician and columnist Lulu Hunt Peters.
+It was estimated that over 1000 weight loss diets have been developed up to </center></p>
+
+
+
+</body>
+</html>

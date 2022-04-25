@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+               <a class="navbar-brand" href="">NHS</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="tech.html">Home</a></li>
+          
+           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Healthy diet <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                    <li><a href="tame 2.html">Exercize</a></li>
+                    <li><a href="tame.html">Nutrition</a></li>
+                    <li><a href="tame 3.html">Healthy diet</a></li>
+                  </ul>
+                </li>
+                <li><a href="tame 5.html">Health benefits</a></li>
+                <li><a href="tame 4.html">About us</a></li>
+              
+                  <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="form-group">
+                 
+              <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+              <button type="submit" class="btn btn-default">Search</button>
+          
+          <ul id="myUL">
+            <li><a href="tame 2.html">Exercise</a></li>
+            <li><a href="tame.html">Nutrition</a></li>
+            <li><a href="tame 3.html">Healthy diet</a></li>
+            <li><a href="tame 4.html">About us</a></li>
+            <li><a href="tame 5.html">Health benfits</a></li>
+          </ul>
+          
+          <script>
+          function myFunction() {
+              var input, filter, ul, li, a, i, txtValue;
+              input = document.getElementById("myInput");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myUL");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) {
+                  a = li[i].getElementsByTagName("a")[0];
+                  txtValue = a.textContent || a.innerText;
+                  if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                      li[i].style.display = "";
+                  } else {
+                      li[i].style.display = "none";
+                  }
+              }
+          }
+          </script>
+          
+                
+              </form>
+            </div>
+          </nav>
+          <div class="container">
+          
+
+<h1><center><font color="Blue">What is the NHS?</font></center></h1>
+
+<p><center>The NHS stands for the National Health Service.  It refers to the Government-funded medical and health care services that everyone living in the UK can use without being asked to pay the full cost of the service. These services include:
+Visiting a doctor or a nurse at a doctor’s surgery
+Getting help and treatment at a hospital if you are unwell or injured
+Seeing a midwife if you are pregnant
+Getting urgent help from healthcare professionals working in the ambulance services if you have serious or life-threatening injuries or health problems - this might include being transported to hospital</center><p>
+
+<h2><center>Info</center></h2>
+
+<p><center>People often refer to these health services as ‘free at the point of use (or delivery)’. This means that any UK resident can, for example, go and see a doctor who will offer diagnosis or treatment for an illness without asking the individual to pay for this service during or after the visit. Instead, most health care services are ‘publicly funded’, which means money has been allocated by government to pay for this visit to the doctor. Most of the money is collected through UK residents paying tax.
+
+There’s more than one NHS in the UK, as the responsibility of health care has been passed from the UK government to the Scottish Government, Welsh Government, and Northern Irish Assembly. NHS England, NHS Wales (GIG Cymru), and NHS Scotland provide health care services in Great Britain.</center></p>
+            </body>
+            </html>
